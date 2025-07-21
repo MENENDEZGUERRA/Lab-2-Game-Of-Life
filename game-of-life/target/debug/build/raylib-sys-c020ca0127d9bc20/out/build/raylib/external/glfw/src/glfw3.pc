@@ -1,0 +1,13 @@
+prefix=C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out
+exec_prefix=${prefix}
+includedir=C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/include
+libdir=C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/lib
+
+Name: GLFW
+Description: A multi-platform library for OpenGL, window and input
+Version: 3.4.0
+URL: https://www.glfw.org/
+Requires.private: 
+Libs: -L${libdir} -lglfw3
+Libs.private:  -lgdi32
+Cflags: -I${includedir}

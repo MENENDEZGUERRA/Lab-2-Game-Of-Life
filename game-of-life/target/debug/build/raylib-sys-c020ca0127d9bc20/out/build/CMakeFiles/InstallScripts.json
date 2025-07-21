@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/cmake_install.cmake",
+		"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/raylib/cmake_install.cmake",
+		"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/raylib/external/glfw/cmake_install.cmake",
+		"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/raylib/external/glfw/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

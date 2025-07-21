@@ -1,0 +1,496 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 20/07/2025 20:37:59.
+      
+      Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.07
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/4.0.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 20/07/2025 20:38:01.
+      
+      Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.98
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/4.0.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-9bkyp1"
+      binary: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-9bkyp1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-9bkyp1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4595a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/07/2025 20:38:03.
+        
+        Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bkyp1\\cmTC_4595a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4595a.dir\\Debug\\".
+          Creating directory "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bkyp1\\Debug\\".
+          Creating directory "cmTC_4595a.dir\\Debug\\cmTC_4595a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4595a.dir\\Debug\\cmTC_4595a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4595a.dir\\Debug\\cmTC_4595a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4595a.dir\\Debug\\\\" /Fd"cmTC_4595a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bkyp1\\Debug\\cmTC_4595a.exe" /INCREMENTAL /ILK:"cmTC_4595a.dir\\Debug\\cmTC_4595a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-9bkyp1/Debug/cmTC_4595a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-9bkyp1/Debug/cmTC_4595a.lib" /MACHINE:X64  /machine:x64 cmTC_4595a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_4595a.vcxproj -> C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bkyp1\\Debug\\cmTC_4595a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4595a.dir\\Debug\\cmTC_4595a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4595a.dir\\Debug\\cmTC_4595a.tlog\\cmTC_4595a.lastbuildstate".
+        Done Building Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bkyp1\\cmTC_4595a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.85
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-q31h0m"
+      binary: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-q31h0m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_CXX_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-q31h0m'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_805df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/07/2025 20:38:04.
+        
+        Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q31h0m\\cmTC_805df.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_805df.dir\\Debug\\".
+          Creating directory "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q31h0m\\Debug\\".
+          Creating directory "cmTC_805df.dir\\Debug\\cmTC_805df.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_805df.dir\\Debug\\cmTC_805df.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_805df.dir\\Debug\\cmTC_805df.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_805df.dir\\Debug\\\\" /Fd"cmTC_805df.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q31h0m\\Debug\\cmTC_805df.exe" /INCREMENTAL /ILK:"cmTC_805df.dir\\Debug\\cmTC_805df.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-q31h0m/Debug/cmTC_805df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-q31h0m/Debug/cmTC_805df.lib" /MACHINE:X64  /machine:x64 cmTC_805df.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_805df.vcxproj -> C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q31h0m\\Debug\\cmTC_805df.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_805df.dir\\Debug\\cmTC_805df.tlog\\unsuccessfulbuild".
+          Touching "cmTC_805df.dir\\Debug\\cmTC_805df.tlog\\cmTC_805df.lastbuildstate".
+        Done Building Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q31h0m\\cmTC_805df.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.81
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-9nezlj"
+      binary: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-9nezlj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/menen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-9nezlj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0459e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/07/2025 20:38:06.
+        
+        Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nezlj\\cmTC_0459e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0459e.dir\\Debug\\".
+          Creating directory "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nezlj\\Debug\\".
+          Creating directory "cmTC_0459e.dir\\Debug\\cmTC_0459e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0459e.dir\\Debug\\cmTC_0459e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0459e.dir\\Debug\\cmTC_0459e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0459e.dir\\Debug\\\\" /Fd"cmTC_0459e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro -Werror=pointer-arith "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nezlj\\src.c"
+        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nezlj\\cmTC_0459e.vcxproj]
+        Done Building Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nezlj\\cmTC_0459e.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nezlj\\cmTC_0459e.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nezlj\\cmTC_0459e.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-3p93of"
+      binary: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-3p93of"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/menen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/menen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-3p93of'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0ea9b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/07/2025 20:38:07.
+        
+        Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p93of\\cmTC_0ea9b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0ea9b.dir\\Debug\\".
+          Creating directory "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p93of\\Debug\\".
+          Creating directory "cmTC_0ea9b.dir\\Debug\\cmTC_0ea9b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0ea9b.dir\\Debug\\cmTC_0ea9b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0ea9b.dir\\Debug\\cmTC_0ea9b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0ea9b.dir\\Debug\\\\" /Fd"cmTC_0ea9b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p93of\\src.c"
+          src.c
+        C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p93of\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p93of\\cmTC_0ea9b.vcxproj]
+        Done Building Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p93of\\cmTC_0ea9b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p93of\\cmTC_0ea9b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p93of\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p93of\\cmTC_0ea9b.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-6yb2ud"
+      binary: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-6yb2ud"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/menen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/menen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-6yb2ud'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_48d9e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/07/2025 20:38:08.
+        
+        Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yb2ud\\cmTC_48d9e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_48d9e.dir\\Debug\\".
+          Creating directory "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yb2ud\\Debug\\".
+          Creating directory "cmTC_48d9e.dir\\Debug\\cmTC_48d9e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_48d9e.dir\\Debug\\cmTC_48d9e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_48d9e.dir\\Debug\\cmTC_48d9e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_48d9e.dir\\Debug\\\\" /Fd"cmTC_48d9e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yb2ud\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yb2ud\\Debug\\cmTC_48d9e.exe" /INCREMENTAL /ILK:"cmTC_48d9e.dir\\Debug\\cmTC_48d9e.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-6yb2ud/Debug/cmTC_48d9e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-6yb2ud/Debug/cmTC_48d9e.lib" /MACHINE:X64  /machine:x64 cmTC_48d9e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yb2ud\\cmTC_48d9e.vcxproj]
+        Done Building Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yb2ud\\cmTC_48d9e.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yb2ud\\cmTC_48d9e.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yb2ud\\cmTC_48d9e.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.73
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-l6w34j"
+      binary: "C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-l6w34j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/menen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/menen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-l6w34j'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_888b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 20/07/2025 20:38:09.
+        
+        Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6w34j\\cmTC_888b7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_888b7.dir\\Debug\\".
+          Creating directory "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6w34j\\Debug\\".
+          Creating directory "cmTC_888b7.dir\\Debug\\cmTC_888b7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_888b7.dir\\Debug\\cmTC_888b7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_888b7.dir\\Debug\\cmTC_888b7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_888b7.dir\\Debug\\\\" /Fd"cmTC_888b7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6w34j\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6w34j\\Debug\\cmTC_888b7.exe" /INCREMENTAL /ILK:"cmTC_888b7.dir\\Debug\\cmTC_888b7.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-l6w34j/Debug/cmTC_888b7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/menen/Documents/graficas/Lab-2-Game-Of-Life/game-of-life/target/debug/build/raylib-sys-c020ca0127d9bc20/out/build/CMakeFiles/CMakeScratch/TryCompile-l6w34j/Debug/cmTC_888b7.lib" /MACHINE:X64  /machine:x64 cmTC_888b7.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6w34j\\cmTC_888b7.vcxproj]
+        Done Building Project "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6w34j\\cmTC_888b7.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6w34j\\cmTC_888b7.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\menen\\Documents\\graficas\\Lab-2-Game-Of-Life\\game-of-life\\target\\debug\\build\\raylib-sys-c020ca0127d9bc20\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6w34j\\cmTC_888b7.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.70
+        
+      exitCode: 1
+...
